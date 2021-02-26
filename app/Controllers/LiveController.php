@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Models\Categories;
 use App\Models\Videos;
+use App\Models\Categories;
 use ManaPHP\Rest\Controller;
 
 class LiveController extends Controller

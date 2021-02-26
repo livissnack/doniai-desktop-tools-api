@@ -2,11 +2,11 @@
 
 namespace App\Controllers;
 
-use App\Services\AliyunSmsService;
 use Throwable;
 use App\Models\User;
-use App\Services\UserService;
 use ManaPHP\Rest\Controller;
+use App\Services\UserService;
+use App\Services\AliyunSmsService;
 
 /**
  * Class UserController
